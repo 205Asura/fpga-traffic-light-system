@@ -15,14 +15,15 @@ This project simulates a dual-intersection traffic light system. It features a r
 ## Project Structure
 
 ```
-├── constraint
+fpga-traffic-light-system/
+├── constraint/
 │   └── Arty-Z7-20-Master.xdc
-├── rtl
+├── rtl/
 │   ├── btn_debounce.v
 │   ├── seven_seg_controller.v
 │   ├── traffic_controller.v
 │   └── traffic_light_top.v
-└── tb
+└── tb/
     └── tb_traffic_light.v
 ```
 
